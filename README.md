@@ -8,8 +8,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/manojkumar-kasiviswanathan/Javabasic/logo.png">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/manojkumar-kasiviswanathan/Javabasic">
+    <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 </div>
 
