@@ -8,7 +8,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/manojkumar-kasiviswanathan/Javabasic/blob/dev/kisspng-web-development-javascript-logo-java-plum-5ad58e75bc9174.9127947515239450777724.jpg">
+  <a href="https://github.com/manojkumar-kasiviswanathan/Javabasic/logo.png">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 </div>
