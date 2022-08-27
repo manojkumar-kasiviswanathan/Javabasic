@@ -17,7 +17,7 @@
 
 <h3 align="center">Java Basic</h3>
 
-A simple Java project tata covers all the basic Java concepts
+A simple Java project that covers all the basic Java concepts
 
 <details>
   <summary>Table of Contents</summary>
