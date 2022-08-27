@@ -26,10 +26,10 @@ A simple Java project tata covers all the basic Java concepts
       <a href="#conditional-assignment">Conditional Assignment</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#Loops">Loops</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#foreach">foreach</a></li>
+        <li><a href="#for">for</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -42,16 +42,90 @@ A simple Java project tata covers all the basic Java concepts
 </details>
 
 ## Conditional Assignment
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+This operator consists of three operands and is used to evaluate Boolean expressions. The goal of the operator is to
+decide; which value should be assigned to the variable. The operator is written as:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+#### usage:
 
-## Getting Started
+```java
+public class ConditionalAssignment {
+    int a = 5, b = 10;
+    int greaterNumber = a > b ? a : b;
+}
+```
+
+## Loops
+
+The Java for loop is used to iterate a part of the program several times. If the number of iteration is fixed, it is
+recommended to use for loop.
+
+### foreach
+
+#### usage:
+
+```java
+public class Looping {
+    public static void forEach() {
+        int values[] = {1, 2, 3, 4, 5};
+        for (int value : values) {
+            System.out.println(value);
+        }
+    }
+}
+```
+
+### for
+
+#### usage:
+
+```java
+public class Looping {
+    public static void forloop() {
+        char alphabets[] = {'J', 'A', 'V', 'A' };
+        for (int i = 0; alphabets.length > i; i++) {
+            System.out.println(alphabets[i]);
+        }
+    }
+}
+```
+
+### while
+
+#### usage:
+
+```java
+public class Looping {
+    public static void whileloop() {
+        char alphabets[] = {'J', 'A', 'V', 'A' };
+        System.out.println("while loop");
+        int i = 0;
+        while (alphabets.length > i) {
+            System.out.println(alphabets[i]);
+            i++;
+        }
+    }
+}
+```
+
+### do
+
+#### usage:
+
+```java
+public class Looping {
+    public static void doloop() {
+        char alphabets[] = {'J', 'A', 'V', 'A' };
+        System.out.println("do loop");
+        int i = 0;
+        do {
+            System.out.println(alphabets[i]);
+            i++;
+        } while (alphabets.length > i);
+
+    }
+}
+```
 
 [contributors-shield]: https://img.shields.io/badge/Contributors-1-%3CCOLOR%3E?style=for-the-badge
 
