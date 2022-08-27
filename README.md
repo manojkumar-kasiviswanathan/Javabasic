@@ -30,6 +30,7 @@ A simple Java project tata covers all the basic Java concepts
       <ul>
         <li><a href="#foreach">foreach</a></li>
         <li><a href="#for">for</a></li>
+        <li><a href="#do">do</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
